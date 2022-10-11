@@ -2,9 +2,9 @@ package ru.mirea.lab2.ex2;
 
 public class Ball {
 
-    private double x=0.0;
+    private double x;
 
-    private double y=0.0;
+    private double y;
 
     public Ball(double x, double y){
         this.x=x;

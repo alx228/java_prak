@@ -17,6 +17,11 @@ public class TestBall {
         y=source.nextDouble();
         bl.setY(y);
         System.out.println(bl.toString());
+        System.out.println("Try again set x and y");
+        x=source.nextDouble();
+        y=source.nextDouble();
+        bl.setXY(x, y);
+        System.out.println(bl.toString());
         System.out.println("Move on");
         x0=source.nextDouble();
         y0=source.nextDouble();
